@@ -27,3 +27,30 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+img {
+  max-width: 100%;
+}
+
+@media all and (min-width: 720px) {
+  .div-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 1%;
+  }
+
+  .div-narrow-child {
+    flex: 1;
+    margin: 1%;
+  }
+
+  .div-wide-child {
+    flex: 2;
+    margin: 1%;
+  }
+
+  .brown {
+    background-color: #786048;
+  }
+}
